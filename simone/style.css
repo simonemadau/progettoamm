@@ -1,0 +1,157 @@
+@charset "utf-8";
+body{
+background: url(images/sfondo.gif) ;
+}
+ul#menu {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+ul#menu li {
+    background-color: #FF831C;
+    border-bottom: 5px solid #54BAE2;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left;
+}
+  
+ul#menu li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+  
+ul#menu li.active, ul#menu li:hover {
+    background-color: #54BAE2;
+    border-bottom: 5px solid #FF831C;
+}
+#container{
+background-color: white;
+width: 1100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#header{
+background: url(images/palestra.gif);
+color: #003153;
+text-align: center; 
+padding: 10px;
+ }
+ 
+ #footer{
+ clear: both;
+ padding: 4px;
+ background-color: #999999;
+ color: white;
+ text-align: right;
+ }
+ 
+ #content{
+ padding: 10px;
+ }
+ 
+ #nav{
+  background-color: #FFCC99;
+   height:auto;
+ width: 247px;
+ float: left;
+ }
+ 
+  #main{
+   color: #08457E;
+ width: 825px;
+ float: right;
+ height: auto;
+ }
+ 
+#login form {
+
+}
+
+#login fieldset {
+	border: none;
+}
+
+#login legend {
+	display: none;
+}
+
+#login label {
+	font-size: x-small;
+	font-weight: bold;
+}
+
+#login input {
+	margin-bottom: 5px;
+	padding: 2px 5px;
+	border: 1px solid #385B88;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#inputsubmit1 {
+	background: #385B88;
+	color: #FFFFFF;
+}
+
+.boxed {
+	margin-bottom: 20px;
+}
+
+.boxed .title {
+	height: 25px;
+	margin: 0;
+	padding: 4px 0 0 15px;
+	
+	font-size: 1.4em;
+	color: #5B62BA;
+}
+table {table-layout: fixed;
+ width: auto;
+ border-collapse: collapse; 
+ border: 1px solid #000
+}
+td {
+	width: auto;
+}
+
+
+
+.stepcarousel {
+	position: relative; 
+	border: 10px solid black;
+	overflow: scroll; 
+	width: auto;
+	height: 320px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 90%;
+	}
+
+.stepcarousel .belt {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	}
+
+.stepcarousel .panel {
+	float: left; 
+	overflow: hidden; 
+	margin: 10px;
+	width: 250px;
+	}
+	
+	
+	
+	
